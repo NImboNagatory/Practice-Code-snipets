@@ -27,4 +27,4 @@ print("Latter    occurrence    Percentage")
 
 for char in to_be_printed:
     print(f"  {char['latter']}           {char['occurrence']}           {char['percentage']}%")
-print(f"\n{datalist}")
+print(f"\n\nLetters ordered from highest occurrence to lowest:\n{datalist}")
